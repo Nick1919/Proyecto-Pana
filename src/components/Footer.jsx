@@ -5,7 +5,7 @@ function Footer() {
       <footer>
         <div className="footerContainer">
             <div className="footerInfo">
-
+                
             </div>
             <div className="footerSocialMedia">
 
