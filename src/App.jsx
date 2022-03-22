@@ -1,5 +1,16 @@
+import React from "react";
+import LateralFilter from "./components/LateralFilter.jsx";
+import ProductBox from "./components/ProductBox.jsx";
+
+import './scss/App.scss';
+
 const App = () => {
-  return (<h1>Nick es un pendejo</h1>);
-}
+  return (
+    <div className="App">
+      <LateralFilter />
+      <ProductBox />
+    </div>
+  );
+};
 
 export default App;
