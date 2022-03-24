@@ -19,11 +19,18 @@ const LateralFilter = () => {
                   <li>
                     <label><input type="checkbox" name="" id="" /></label>
                   </li>
+                  <li>
+                    <label><input type="checkbox" name="" id="" /></label>
+                  </li>
+                  <li>
+                    <label><input type="checkbox" name="" id="" /></label>
+                  </li>
                 </ul>
               </div>
             </li>
           </ul>
         </li>
+        <li id="Region">a</li>
       </ul>
     </div>
   );
