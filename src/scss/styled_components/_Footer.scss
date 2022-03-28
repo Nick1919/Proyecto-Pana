@@ -1,0 +1,32 @@
+footer {
+
+    background-color: var(--first-color);
+    margin-top: 40px;
+
+    .footerContainer {
+        display: flex;
+        height: 80px;
+        justify-content: space-around;
+        align-items: center; 
+        
+        .copyrightContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .footerLogo {
+                display: inline-block;
+                height: 25px;
+                width: 25px;
+
+                background-image: url(../../images/Catalogo_icon.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
