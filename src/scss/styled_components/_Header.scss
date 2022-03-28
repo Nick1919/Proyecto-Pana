@@ -1,21 +1,75 @@
 header {
 
+    background-color: var(--first-color);
+    margin-bottom: 40px;
 
     .headerMenuContainer {
-       display: flex;
-       justify-content: space-around; 
-    }
+        
+        display: flex;
+        height: 80px;
+        justify-content: space-around;
+        align-items: center; 
 
-    .headerLogoContainer {
 
-        >.headerLogo {
-            display: inline-block;
-            height: 40px;
-            width: 40px;
-            background-image: url(../../image/Catalogo_icon.png);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+        >.headerMenu {
+
+            >.headerMenuIcon {
+                display: inline-block;
+                height: 25px;
+                width: 25px;
+
+                background-image: url(../../images/icons/toggle-menu-icon.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                cursor: pointer;
+            }
+
+            >.headerMenuIcon:hover {
+                background-image: url(../../images/icons/toggle-open-menu-icon.png);
+            }
+        }
+
+
+       >.headerLogoContainer {
+           display: fleX;
+           justify-content: center;
+           align-items: center;
+
+            >.headerLogo {
+                display: inline-block;
+                height: 40px;
+                width: 40px;
+
+                background-image: url(../../images/Catalogo_icon.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                cursor: pointer;
+            }
+        }
+
+        >.headerNav {
+            ul {
+                display: flex;    
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    padding: 10px 20px;
+                    font-size: 18px;
+                    font-weight: 400;
+                    cursor: pointer;
+                }
+
+                li:hover {
+                    background-color: rgba(0,0,0,0.1);
+                    border-radius: 5px;
+                }
+            }
         }
     }
 }
